@@ -8,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class Dados {
 
+  logado = true;
+  logado1 = false;
+
+  mensagem() {
+    this.logado = !this.logado;
+    this.logado1 = !this.logado1;
+  }
+
+  
 }

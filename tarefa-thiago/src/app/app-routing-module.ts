@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path : "funcionario", 
+    path : 'funcionario', 
     loadChildren: () => import('./funcionario/funcionario-module').then(m => m.FuncionarioModule)
   }
 ];
